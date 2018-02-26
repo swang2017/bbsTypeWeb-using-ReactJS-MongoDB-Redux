@@ -1,0 +1,194 @@
+body, html {
+  font-family: sans-serif;
+  margin:0;
+  padding:0;
+  position:relative;
+}
+
+
+.nav {
+  background-color: #096db5;
+  display:flex;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  color: white;
+  text-align: center;
+  height: 50px;
+  padding-left: 12.5%;
+}
+.footer {
+    position:relative;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: #096db5;
+    color: white;
+    text-align: center;
+    height: 50px;
+    font-family: sans-serif;
+
+}
+
+.nav div {
+  width:auto;
+  padding-top:15px;
+  padding-right:20px;
+}
+
+.linkFont {
+  color:white;
+  font-family: sans-serif;
+  text-decoration:none;
+}
+
+/* Style the container */
+.container {
+  border-radius: 5px;
+  width:75%;
+  margin-left:12.5%;
+  /*margin-right:12.5%;*/
+  height:100vh;
+  border-style: ridge;
+}
+
+/*.containerMainPage {
+  border-radius: 5px;
+  background-color: #f2f2f2;
+  padding: 20px;
+  margin-left:20%;
+  margin-right:20%;
+  margin-bottom:100px;
+  height:auto;
+
+}*/
+
+
+.postTitleLine{
+  display:flex;
+  height:100%;
+  margin-bottom:2%;
+
+}
+.postDetailsTitleLine{
+  display:flex;
+  height:100%;
+  margin-bottom:2%;
+  border-style:solid;
+  border-width: thin;
+  border-color:lightgray;
+}
+.postTitle{
+  width:70%;
+  height:100%;
+}
+
+.postMessage{
+  width:100%;
+  height:auto;
+  border-style:solid;
+  border-width: thin;
+  border-color:lightgray;
+}
+
+.postUserAndTime{
+  overflow:hidden;
+  font-style: italic;
+  font-family: sans-serif;
+  color: #096db5;
+  width:15%
+}
+.containerHomePage{
+  font-family: sans-serif;
+  height:100%;
+  font-size:15px;
+  width:75%;
+  margin-left:12.5%;
+  border-style: ridge;
+
+}
+.allColumnDiv{
+  display:flex;
+  flex-direction:column;
+  /*height: 100%;*/
+  background-color:white;
+  /*display:inline-block;*/
+  /*border-style: ridge;*/
+  /*margin-left:15%;*/
+  /*display:table;*/
+
+}
+.singleColumnDiv{
+
+  border-color:#096db5;
+
+  color:inherit;
+  /*border-style:ridge;*/
+}
+
+.singleColumnTitleDiv{
+  background-color: white;
+    text-align: center;
+    border-style:ridge;
+}
+.imgCarousel{
+/*margin-left: 15%;
+margin-right: 10%;*/
+height:2%;
+}
+.carouselOne{
+height:100%;
+}
+
+.linkOnPage{
+  text-align: center;
+  text-decoration: none;
+  font-style: italic;
+  font-family: sans-serif;
+
+}
+.linkToPost{
+  text-align:left;
+  text-decoration: none;
+  font-style: italic;
+  font-family: sans-serif;
+  color: #096db5;
+  font-size: 15px;
+
+}
+/*li{
+  list-style-position:outside;
+}*/
+/*.postListItem{
+  display:flex;
+  list-style: georgian;
+}*/
+.pageTitle{
+  display: inline-block;
+  width:100%;
+  border-style:solid;
+  border-color:lightgray;
+  border-width: thin;
+}
+.newPostTitle{
+  float:left;
+}
+.pageLocation{
+  float:right;
+}
+.postDetails{
+  /*list-style: none;*/
+  border-style:solid;
+  border-width: thin;
+  border-color:lightgray;
+}
+
+.titleInPostDetails{
+  display:flex;
+}
+.titleAndMessageFont{
+  font-family: sans-serif;
+  font-weight: bold;
+  font-style: italic;
+  width:50px;
+}
